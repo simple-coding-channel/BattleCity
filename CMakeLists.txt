@@ -18,6 +18,8 @@ add_executable(${PROJECT_NAME}
 	src/Resources/stb_image.h
 	src/Game/Game.h
 	src/Game/Game.cpp
+	src/Game/Tank.h
+	src/Game/Tank.cpp
 )
 
 target_compile_features(${PROJECT_NAME} PUBLIC cxx_std_17)
