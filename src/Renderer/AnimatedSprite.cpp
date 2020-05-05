@@ -67,8 +67,8 @@ namespace Renderer {
                 // U  V
                 subTexture.leftBottomUV.x, subTexture.leftBottomUV.y,
                 subTexture.leftBottomUV.x, subTexture.rightTopUV.y,
-                subTexture.rightTopUV.x, subTexture.rightTopUV.y,
-                subTexture.rightTopUV.x, subTexture.leftBottomUV.y,
+                subTexture.rightTopUV.x,   subTexture.rightTopUV.y,
+                subTexture.rightTopUV.x,   subTexture.leftBottomUV.y,
             };
 
             m_textureCoordsBuffer.update(textureCoords, 2 * 4 * sizeof(GLfloat));
