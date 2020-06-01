@@ -84,10 +84,10 @@ bool Game::init()
         return false;
     }
 
-    auto pSpriteShaderProgram = ResourceManager::loadShaders("SpriteShader", "res/shaders/vSprite.txt", "res/shaders/fSprite.txt");
+    auto pSpriteShaderProgram = ResourceManager::loadShaders("spriteShader", "res/shaders/vSprite.txt", "res/shaders/fSprite.txt");
     if (!pSpriteShaderProgram)
     {
-        std::cerr << "Can't create shader program: " << "SpriteShader" << std::endl;
+        std::cerr << "Can't create shader program: " << "spriteShader" << std::endl;
         return false;
     }
 
@@ -132,7 +132,7 @@ bool Game::init()
 
     auto pTextureAtlas = ResourceManager::loatTextureAtlas("DefaultTextureAtlas", "res/textures/map_16x16.png", std::move(subTexturesNames), 16, 16);
 
-    auto pAnimatedSprite = ResourceManager::loadAnimatedSprite("NewAnimatedSprite", "DefaultTextureAtlas", "SpriteShader", 100, 100, "beton");
+    auto pAnimatedSprite = ResourceManager::loadAnimatedSprite("NewAnimatedSprite", "DefaultTextureAtlas", "spriteShader", 100, 100, "beton");
     pAnimatedSprite->setPosition(glm::vec2(300, 300));
     std::vector<std::pair<std::string, uint64_t>> waterState;
     waterState.emplace_back(std::make_pair<std::string, uint64_t>("water1", 1000000000));
@@ -177,7 +177,7 @@ bool Game::init()
         "tankRight2"
     };
     auto pTanksTextureAtlas = ResourceManager::loatTextureAtlas("TanksTextureAtlas", "res/textures/tanks.png", std::move(tanksSubTexturesNames), 16, 16);
-    auto pTanksAnimatedSprite = ResourceManager::loadAnimatedSprite("TanksAnimatedSprite", "TanksTextureAtlas", "SpriteShader", 100, 100, "tankTop1");
+    auto pTanksAnimatedSprite = ResourceManager::loadAnimatedSprite("TanksAnimatedSprite", "TanksTextureAtlas", "spriteShader", 100, 100, "tankTop1");
 
     std::vector<std::pair<std::string, uint64_t>> tankTopState;
     tankTopState.emplace_back(std::make_pair<std::string, uint64_t>("tankTop1", 500000000));
