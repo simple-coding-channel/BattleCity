@@ -8,6 +8,9 @@
 #include <fstream>
 #include <iostream>
 
+#include <rapidjson/document.h>
+#include <rapidjson/error/en.h>
+
 #define STB_IMAGE_IMPLEMENTATION
 #define STBI_ONLY_PNG
 #include "stb_image.h"
@@ -231,4 +234,93 @@ std::shared_ptr<RenderEngine::Texture2D> ResourceManager::loatTextureAtlas(std::
         }
     }
     return pTexture;
+}
+
+bool ResourceManager::loadJSONResources(const std::string& JSONPath)
+{
+    const std::string JSONString = getFileString(JSONPath);
+    if (JSONString.empty())
+    {
+        std::cerr << "No JSON resources file!" << std::endl;
+        return false;
+    }
+
+    rapidjson::Document document;
+    rapidjson::ParseResult parseResult = document.Parse(JSONString.c_str());
+    if (!parseResult)
+    {
+        std::cerr << "JSON parse error: " << rapidjson::GetParseError_En(parseResult.Code()) << "(" << parseResult.Offset() << ")" << std::endl;
+        std::cerr << "In JSON file: " << JSONPath << std::endl;
+        return false;
+    }
+
+    auto shadersIt = document.FindMember("shaders");
+    if (shadersIt != document.MemberEnd())
+    {
+        for (const auto& currentShader : shadersIt->value.GetArray())
+        {
+            const std::string name = currentShader["name"].GetString();
+            const std::string filePath_v = currentShader["filePath_v"].GetString();
+            const std::string filePath_f = currentShader["filePath_f"].GetString();
+            loadShaders(name, filePath_v, filePath_f);
+        }
+    }
+
+    auto textureAtlasesIt = document.FindMember("textureAtlases");
+    if (textureAtlasesIt != document.MemberEnd())
+    {
+        for (const auto& currentTextrueAtlas : textureAtlasesIt->value.GetArray())
+        {
+            const std::string name = currentTextrueAtlas["name"].GetString();
+            const std::string filePath = currentTextrueAtlas["filePath"].GetString();
+            const unsigned int subTextureWidht = currentTextrueAtlas["subTextureWidth"].GetUint();
+            const unsigned int subTextureHeight = currentTextrueAtlas["subTextureHeight"].GetUint();
+
+            const auto subTexturesArray = currentTextrueAtlas["subTextures"].GetArray();
+            std::vector<std::string> subTextures;
+            subTextures.reserve(subTexturesArray.Size());
+            for (const auto& currentSubTexture : subTexturesArray)
+            {
+                subTextures.emplace_back(currentSubTexture.GetString());
+            }
+            loatTextureAtlas(name, filePath, std::move(subTextures), subTextureWidht, subTextureHeight);
+        }
+    }
+
+    auto animatedSpritesIt = document.FindMember("animatedSprites");
+    if (animatedSpritesIt != document.MemberEnd())
+    {
+        for (const auto& currentAnimatedSprite : animatedSpritesIt->value.GetArray())
+        {
+            const std::string name = currentAnimatedSprite["name"].GetString();
+            const std::string textureAtlas = currentAnimatedSprite["textureAtlas"].GetString();
+            const std::string shader = currentAnimatedSprite["shader"].GetString();
+            const unsigned int initialWidth = currentAnimatedSprite["initialWidth"].GetUint();
+            const unsigned int initialHeight = currentAnimatedSprite["initialHeight"].GetUint();
+            const std::string initialSubTexture = currentAnimatedSprite["initialSubTexture"].GetString();
+
+            auto pAnimatedSprite = loadAnimatedSprite(name, textureAtlas, shader, initialWidth, initialHeight, initialSubTexture);
+            if (!pAnimatedSprite)
+            {
+                continue;
+            }
+
+            const auto statesArray = currentAnimatedSprite["states"].GetArray();
+            for (const auto& currentState : statesArray)
+            {
+                const std::string stateName = currentState["stateName"].GetString();
+                std::vector<std::pair<std::string, uint64_t>> frames;
+                const auto framesArray = currentState["frames"].GetArray();
+                frames.reserve(framesArray.Size());
+                for (const auto& currentFrame : framesArray)
+                {
+                    const std::string subTexture = currentFrame["subTexture"].GetString();
+                    const uint64_t duration = currentFrame["duration"].GetUint64();
+                    frames.emplace_back(std::pair<std::string, uint64_t>(subTexture, duration));
+                }
+                pAnimatedSprite->insertState(stateName, std::move(frames));
+            }
+        }
+    }
+    return true;
 }
