@@ -14,26 +14,26 @@
 			"subTextureWidth"   : 16,
 			"subTextureHeight"  : 16,
 			"subTextures" : [
-				"block",
-				"topBlock",
-				"bottomBlock",
-				"leftBlock",
-				"rightBlock",
-				"topLeftBlock",
-				"topRightBlock",
-				"bottomLeftBlock",
+				"brickWall",
+				"brickWall_top",
+				"brickWall_bottom",
+				"brickWall_left",
+				"brickWall_right",
+				"brickWall_top_left",
+				"brickWall_top_right",
+				"brickWall_bottom_left",
 
-				"bottomRightBlock",
-				"beton",
-				"topBeton",
-				"bottomBeton",
-				"leftBeton",
-				"rightBeton",
-				"topLeftBeton",
-				"topRightBeton",
+				"brickWall_bottom_right",
+				"betonWall",
+				"betonWall_top",
+				"betonWall_bottom",
+				"betonWall_left",
+				"betonWall_right",
+				"betonWall_top_left",
+				"betonWall_top_right",
 
-				"bottomLeftBeton",
-				"bottomRightBeton",
+				"betonWall_bottom_left",
+				"betonWall_bottom_right",
 				"water1",
 				"water2",
 				"water3",
@@ -42,7 +42,7 @@
 				"wall",
 
 				"eagle",
-				"deadEagle",
+				"eagle_dead",
 				"nothing",
 				"respawn1",
 				"respawn2",
@@ -69,13 +69,142 @@
 		}
 	],
 	
+	"sprites" : [
+        {
+            "name"           : "brickWall",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall"
+        },
+        
+        {
+            "name"           : "brickWall_top",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_top"
+        },
+        
+        {
+            "name"           : "brickWall_bottom",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_bottom"
+        },
+        
+        {
+            "name"           : "brickWall_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+
+            "subTextureName" : "brickWall_left"
+        },
+        
+        {
+            "name"           : "brickWall_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_right"
+        },
+        
+        {
+            "name"           : "brickWall_top_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_top_left"
+        },
+        
+        {
+            "name"           : "brickWall_top_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_top_right"
+        },
+        
+        {
+            "name"           : "brickWall_bottom_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_bottom_left"
+        },
+        
+        {
+            "name"           : "brickWall_bottom_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "brickWall_bottom_right"
+        },
+        
+        {
+            "name"           : "betonWall",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+
+            "subTextureName" : "betonWall"
+        },
+        
+        {
+            "name"           : "betonWall_top",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_top"
+        },
+        
+        {
+            "name"           : "betonWall_bottom",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_bottom"
+        },
+        
+        {
+            "name"           : "betonWall_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_left"
+        },
+        
+        {
+            "name"           : "betonWall_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_right"
+        },
+        
+        {
+            "name"           : "betonWall_top_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_top_left"
+        },
+        
+        {
+            "name"           : "betonWall_top_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_top_right"
+        },
+        
+        {
+            "name"           : "betonWall_bottom_left",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+
+            "subTextureName" : "betonWall_bottom_left"
+        },
+        
+        {
+            "name"           : "betonWall_bottom_right",
+            "textureAtlas"   : "mapTextureAtlas",
+            "shader"         : "spriteShader",
+            "subTextureName" : "betonWall_bottom_right"
+        }
+	],
+	
 	"animatedSprites" : [
 		{
 			"name" 				: "tankAnimatedSprite",
 			"textureAtlas" 		: "tanksTextureAtlas",
 			"shader" 			: "spriteShader",
-			"initialWidth" 		: 100,
-			"initialHeight" 	: 100,
 			"initialSubTexture" : "yellowType1_Top1",
 			"states" : [
 				{
@@ -134,6 +263,34 @@
 					]
 				}
 			]
+		},
+		
+		{
+			"name" 				: "eagleAnimatedSprite",
+			"textureAtlas" 		: "mapTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "eagle",
+			"states" : [
+				{
+					"stateName" : "eagle",
+					"frames" : [
+						{
+							"subTexture" : "eagle_dead",
+							"duration"   : 0
+						}
+					]
+				},
+				
+				{
+					"stateName" : "eagle_dead",
+					"frames" : [
+						{
+							"subTexture" : "eagle_dead",
+							"duration"   : 0
+						}
+					]
+				}
+			]
 		}
 	],
 	
@@ -152,7 +309,7 @@
 				"D1D1D444D1D1D",
 				"D4D4D4D4D4D4D",
 				"D4D4D3D3D4D4D",
-				"D4D4DH1GDDDDD",
+				"D4D4DH1GD4D4D",
 				"DDDDD0E2DDDDD"
 			]
 		}
