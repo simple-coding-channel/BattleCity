@@ -9,6 +9,42 @@
 	
 	"textureAtlases" : [
         {
+			"name" 				: "mapTextureAtlas_8x8",
+			"filePath"  		: "res/textures/map_8x8.png",
+			"subTextureWidth"   : 8,
+			"subTextureHeight"  : 8,
+			"subTextures" : [
+				"brickWall_All",
+				"brickWall_TopLeft",
+				"brickWall_TopRight",
+				"brickWall_Top",
+				"brickWall_BottomLeft",
+				"brickWall_Left",
+				
+				"brickWall_TopRight_BottomLeft",
+				"brickWall_Top_BottomLeft",
+				"brickWall_BottomRight",
+				"brickWall_TopLeft_BottomRight",
+				"brickWall_Right",
+				"brickWall_Top_BottomRight",
+				
+				"brickWall_Bottom",
+				"brickWall_TopLeft_Bottom",
+				"brickWall_TopRight_Bottom",
+				"water1",
+				"water2",
+				"water3",
+				
+				"betonWall",
+				"wall",
+				"ice",
+				"wall",
+				"bullet",
+				"nothing"
+			]
+		},
+		
+        {
 			"name" 				: "mapTextureAtlas",
 			"filePath"  		: "res/textures/map_16x16.png",
 			"subTextureWidth"   : 16,
@@ -68,70 +104,102 @@
 			]
 		}
 	],
-	
+
 	"sprites" : [
         {
-            "name"              : "brickWall",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "brickWall_All",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall"
+            "initialSubTexture" : "brickWall_All"
+        },
+        {
+            "name"              : "brickWall_TopLeft",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_TopLeft"
+        },
+        {
+            "name"              : "brickWall_TopRight",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_TopRight"
+        },
+        {
+            "name"              : "brickWall_Top",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_Top"
+        },
+        {
+            "name"              : "brickWall_BottomLeft",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_BottomLeft"
+        },
+        {
+            "name"              : "brickWall_Left",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_Left"
         },
         
         {
-            "name"              : "brickWall_top",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "brickWall_TopRight_BottomLeft",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_top"
+            "initialSubTexture" : "brickWall_TopRight_BottomLeft"
+        },
+        {
+            "name"              : "brickWall_Top_BottomLeft",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_Top_BottomLeft"
+        },
+        {
+            "name"              : "brickWall_BottomRight",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_BottomRight"
+        },
+        {
+            "name"              : "brickWall_TopLeft_BottomRight",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_TopLeft_BottomRight"
+        },
+        {
+            "name"              : "brickWall_Right",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_Right"
+        },
+        {
+            "name"              : "brickWall_Top_BottomRight",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_Top_BottomRight"
         },
         
         {
-            "name"              : "brickWall_bottom",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "brickWall_Bottom",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_bottom"
+            "initialSubTexture" : "brickWall_Bottom"
+        },
+        {
+            "name"              : "brickWall_TopLeft_Bottom",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_TopLeft_Bottom"
+        },
+        {
+            "name"              : "brickWall_TopRight_Bottom",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "brickWall_TopRight_Bottom"
         },
         
-        {
-            "name"              : "brickWall_left",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_left"
-        },
         
-        {
-            "name"              : "brickWall_right",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_right"
-        },
-        
-        {
-            "name"              : "brickWall_top_left",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_top_left"
-        },
-        
-        {
-            "name"              : "brickWall_top_right",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_top_right"
-        },
-        
-        {
-            "name"              : "brickWall_bottom_left",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_bottom_left"
-        },
-        
-        {
-            "name"              : "brickWall_bottom_right",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "brickWall_bottom_right"
-        },
         
         {
             "name"              : "betonWall",
