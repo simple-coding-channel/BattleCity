@@ -36,7 +36,7 @@
 				"water3",
 				
 				"betonWall",
-				"wall",
+				"trees",
 				"ice",
 				"wall",
 				"bullet",
@@ -45,45 +45,46 @@
 		},
 		
         {
-			"name" 				: "mapTextureAtlas",
+			"name" 				: "mapTextureAtlas_16x16",
 			"filePath"  		: "res/textures/map_16x16.png",
 			"subTextureWidth"   : 16,
 			"subTextureHeight"  : 16,
 			"subTextures" : [
-				"brickWall",
-				"brickWall_top",
-				"brickWall_bottom",
-				"brickWall_left",
-				"brickWall_right",
-				"brickWall_top_left",
-				"brickWall_top_right",
-				"brickWall_bottom_left",
-
-				"brickWall_bottom_right",
-				"betonWall",
-				"betonWall_top",
-				"betonWall_bottom",
-				"betonWall_left",
-				"betonWall_right",
-				"betonWall_top_left",
-				"betonWall_top_right",
-
-				"betonWall_bottom_left",
-				"betonWall_bottom_right",
-				"water1",
-				"water2",
-				"water3",
-				"trees",
-				"ice",
-				"wall",
-
 				"eagle",
 				"eagle_dead",
-				"nothing",
 				"respawn1",
 				"respawn2",
 				"respawn3",
-				"respawn4"
+				"respawn4",
+				"shield1",
+				"shield2",
+				
+				"bigExplosion1_top_left",
+				"bigExplosion1_top_right",
+				"bigExplosion2_top_left",
+				"bigExplosion2_top_right",
+				"explosion1",
+				"explosion2",
+				"explosion3",
+				"reserved1",
+				
+				"bigExplosion1_bottom_left",
+				"bigExplosion1_bottom_right",
+				"bigExplosion2_bottom_left",
+				"bigExplosion2_bottom_right",
+				"reserved2",
+				"reserved3",
+				"reserved4",
+				"reserved5",
+				
+				"bonus_helmet",
+				"bonus_clock",
+				"bonus_shovel",
+				"bonus_star",
+				"bonus_grenade",
+				"bonus_tank",
+				"bonus_gun",
+				"reserved6"
 			]
 		},
 		
@@ -198,85 +199,236 @@
             "shader"            : "spriteShader",
             "initialSubTexture" : "brickWall_TopRight_Bottom"
         },
-        
-        
+        {
+            "name"              : "water",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "water1",
+            "frames" : [
+                {
+                    "subTexture" : "water1",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "water2",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "water3",
+                    "duration"   : 500000000
+                }
+            ]
+        },
         
         {
             "name"              : "betonWall",
-            "textureAtlas"      : "mapTextureAtlas",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
             "initialSubTexture" : "betonWall"
         },
-        
         {
-            "name"              : "betonWall_top",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "trees",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_top"
+            "initialSubTexture" : "trees"
         },
-        
         {
-            "name"              : "betonWall_bottom",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "ice",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_bottom"
+            "initialSubTexture" : "ice"
         },
-        
         {
-            "name"              : "betonWall_left",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "wall",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_left"
+            "initialSubTexture" : "wall"
         },
-        
         {
-            "name"              : "betonWall_right",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "bullet",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_right"
+            "initialSubTexture" : "bullet"
         },
-        
+
+
         {
-            "name"              : "betonWall_top_left",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_top_left"
-        },
-        
-        {
-            "name"              : "betonWall_top_right",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_top_right"
-        },
-        
-        {
-            "name"              : "betonWall_bottom_left",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_bottom_left"
-        },
-        
-        {
-            "name"              : "betonWall_bottom_right",
-            "textureAtlas"      : "mapTextureAtlas",
-            "shader"            : "spriteShader",
-            "initialSubTexture" : "betonWall_bottom_right"
-        },
-        
-        {
-            "name"              : "eagleSprite",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "eagle",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
             "shader"            : "spriteShader",
             "initialSubTexture" : "eagle"
         },
-        
         {
-            "name"              : "eagleSprite",
-            "textureAtlas"      : "mapTextureAtlas",
+            "name"              : "eagle_dead",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
             "shader"            : "spriteShader",
             "initialSubTexture" : "eagle_dead"
         },
+        {
+			"name" 				: "respawn",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "respawn1",
+			"frames" : [
+                {
+                    "subTexture" : "respawn1",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "respawn2",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "respawn3",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "respawn4",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+        {
+			"name" 				: "shield",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "shield1",
+			"frames" : [
+                {
+                    "subTexture" : "shield1",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "shield1",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+        {
+			"name" 				: "explosion",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "explosion1",
+			"frames" : [
+                {
+                    "subTexture" : "explosion1",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "explosion2",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+		{
+			"name" 				: "bigExplosion_top_left",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "bigExplosion1_top_left",
+			"frames" : [
+                {
+                    "subTexture" : "bigExplosion1_top_left",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "bigExplosion2_top_left",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+		{
+			"name" 				: "bigExplosion_top_right",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "bigExplosion1_top_right",
+			"frames" : [
+                {
+                    "subTexture" : "bigExplosion1_top_right",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "bigExplosion2_top_right",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+		{
+			"name" 				: "bigExplosion_bottom_left",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "bigExplosion1_bottom_left",
+			"frames" : [
+                {
+                    "subTexture" : "bigExplosion1_bottom_left",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "bigExplosion2_bottom_left",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+		{
+			"name" 				: "bigExplosion_bottom_right",
+			"textureAtlas" 		: "mapTextureAtlas_16x16",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "bigExplosion1_bottom_right",
+			"frames" : [
+                {
+                    "subTexture" : "bigExplosion1_bottom_right",
+                    "duration"   : 500000000
+                },
+                {
+                    "subTexture" : "bigExplosion2_bottom_right",
+                    "duration"   : 500000000
+                }
+            ]
+		},
+		
+        {
+            "name"              : "bonus_helmet",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_helmet"
+        },
+        {
+            "name"              : "bonus_clock",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_clock"
+        },
+        {
+            "name"              : "bonus_shovel",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_shovel"
+        },
+        {
+            "name"              : "bonus_star",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_star"
+        },
+        {
+            "name"              : "bonus_grenade",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_grenade"
+        },
+        {
+            "name"              : "bonus_tank",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_tank"
+        },
+        {
+            "name"              : "bonus_gun",
+            "textureAtlas"      : "mapTextureAtlas_16x16",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bonus_gun"
+        },
+        
+        
         
         {
 			"name" 				: "tankSprite_top",
