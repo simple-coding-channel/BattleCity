@@ -13,7 +13,7 @@ public:
     ~Game();
 
     void render();
-    void update(const uint64_t delta);
+    void update(const double delta);
     void setKey(const int key, const int action);
     bool init();
     size_t getCurrentLevelWidth() const;

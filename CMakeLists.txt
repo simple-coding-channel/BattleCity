@@ -30,9 +30,11 @@ add_executable(${PROJECT_NAME}
 	
 	src/Game/Game.cpp
 	src/Game/Game.h
-	
 	src/Game/Level.cpp
 	src/Game/Level.h
+	
+	src/System/Timer.cpp
+	src/System/Timer.h
 	
 	src/Game/GameObjects/IGameObject.cpp
 	src/Game/GameObjects/IGameObject.h
