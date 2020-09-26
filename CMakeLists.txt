@@ -36,6 +36,9 @@ add_executable(${PROJECT_NAME}
 	src/System/Timer.cpp
 	src/System/Timer.h
 	
+	src/Physics/PhysicsEngine.cpp
+	src/Physics/PhysicsEngine.h
+	
 	src/Game/GameObjects/IGameObject.cpp
 	src/Game/GameObjects/IGameObject.h
 	src/Game/GameObjects/Tank.cpp
