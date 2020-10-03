@@ -89,7 +89,7 @@ int main(int argc, char** argv)
 
     {
         ResourceManager::setExecutablePath(argv[0]);
-        PhysicsEngine::init();
+        Physics::PhysicsEngine::init();
         g_game->init();
 
         glfwSetWindowSize(pWindow, static_cast<int>(3 * g_game->getCurrentLevelWidth()), static_cast<int>(3 * g_game->getCurrentLevelHeight()));
@@ -105,7 +105,7 @@ int main(int argc, char** argv)
             double duration = std::chrono::duration<double, std::milli>(currentTime - lastTime).count();
             lastTime = currentTime;
             g_game->update(duration);
-            PhysicsEngine::update(duration);
+            Physics::PhysicsEngine::update(duration);
 
             /* Render here */
             RenderEngine::Renderer::clear();
@@ -115,7 +115,7 @@ int main(int argc, char** argv)
             /* Swap front and back buffers */
             glfwSwapBuffers(pWindow);
         }
-        PhysicsEngine::terminate();
+        Physics::PhysicsEngine::terminate();
         g_game = nullptr;
         ResourceManager::unloadAllResources();
     }
