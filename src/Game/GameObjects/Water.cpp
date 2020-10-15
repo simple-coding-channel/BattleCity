@@ -12,6 +12,7 @@ Water::Water(const glm::vec2& position, const glm::vec2& size, const float rotat
                        glm::vec2(0, 0),
                        glm::vec2(m_size.x / 2.f, 0) }
 {
+    m_colliders.emplace_back(glm::vec2(0), m_size);
 }
 
 void Water::renderBlock(const EBlockLocation eBlockLocation) const
