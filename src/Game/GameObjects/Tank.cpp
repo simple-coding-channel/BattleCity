@@ -2,6 +2,8 @@
 
 #include "../../Resources/ResourceManager.h"
 #include "../../Renderer/Sprite.h"
+#include "Bullet.h"
+#include "../../Physics/PhysicsEngine.h"
 
 Tank::Tank(const double maxVelocity,
            const glm::vec2& position,
@@ -9,6 +11,7 @@ Tank::Tank(const double maxVelocity,
            const float layer)
     : IGameObject(position, size, 0.f, layer)
     , m_eOrientation(EOrientation::Top)
+    , m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.f, m_size / 2.f, layer))
     , m_pSprite_top(ResourceManager::getSprite("tankSprite_top"))
     , m_pSprite_bottom(ResourceManager::getSprite("tankSprite_bottom"))
     , m_pSprite_left(ResourceManager::getSprite("tankSprite_left"))
@@ -80,6 +83,11 @@ void Tank::render() const
             m_pSprite_shield->render(m_position, m_size, m_rotation, m_layer + 0.1f, m_spriteAnimator_shield.getCurrentFrame());
         }
     }
+
+    if (m_pCurrentBullet->isActive())
+    {
+        m_pCurrentBullet->render();
+    }
 }
 
 void Tank::setOrientation(const EOrientation eOrientation)
@@ -107,8 +115,6 @@ void Tank::setOrientation(const EOrientation eOrientation)
     case Tank::EOrientation::Right:
         m_direction.x = 1.f;
         m_direction.y = 0.f;
-        break;
-    default:
         break;
     }
 }
@@ -146,5 +152,14 @@ void Tank::update(const double delta)
                 break;
             }
         }
+    }
+}
+
+void Tank::fire()
+{
+    //if (!m_pCurrentBullet->isActive())
+    {
+        m_pCurrentBullet->fire(m_position + m_size / 4.f, m_direction);
+        Physics::PhysicsEngine::addDynamicGameObject(m_pCurrentBullet);
     }
 }

@@ -97,24 +97,26 @@ namespace Physics {
 
                 if (currentCollider1_bottomLeft_world.x >= currentCollider2_topRight_world.x)
                 {
-                    return false;
+                    continue;
                 }
                 if (currentCollider1_topRight_world.x <= currentCollider2_bottomLeft_world.x)
                 {
-                    return false;
+                    continue;
                 }
 
                 if (currentCollider1_bottomLeft_world.y >= currentCollider2_topRight_world.y)
                 {
-                    return false;
+                    continue;
                 }
                 if (currentCollider1_topRight_world.y <= currentCollider2_bottomLeft_world.y)
                 {
-                    return false;
+                    continue;
                 }
+
+                return true;
             }
         }
 
-        return true;
+        return false;
     }
 }

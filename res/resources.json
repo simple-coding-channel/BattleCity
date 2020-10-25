@@ -39,7 +39,10 @@
 				"trees",
 				"ice",
 				"border",
-				"bullet",
+				"bullet_Top",
+				"bullet_Bottom",
+				"bullet_Left",
+				"bullet_Right",
 				"nothing"
 			]
 		},
@@ -509,12 +512,30 @@
             "initialSubTexture" : "border"
         },
         {
-            "name"              : "bullet",
+            "name"              : "bullet_Top",
             "textureAtlas"      : "mapTextureAtlas_8x8",
             "shader"            : "spriteShader",
-            "initialSubTexture" : "bullet"
+            "initialSubTexture" : "bullet_Top"
         },
-
+        {
+            "name"              : "bullet_Bottom",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bullet_Bottom"
+        },
+        {
+            "name"              : "bullet_Left",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bullet_Left"
+        },
+        {
+            "name"              : "bullet_Right",
+            "textureAtlas"      : "mapTextureAtlas_8x8",
+            "shader"            : "spriteShader",
+            "initialSubTexture" : "bullet_Right"
+        },
+        
 
         {
             "name"              : "eagle",
