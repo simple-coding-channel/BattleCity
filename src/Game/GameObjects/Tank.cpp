@@ -9,7 +9,7 @@ Tank::Tank(const double maxVelocity,
            const glm::vec2& position,
            const glm::vec2& size,
            const float layer)
-    : IGameObject(position, size, 0.f, layer)
+    : IGameObject(IGameObject::EObjectType::Tank, position, size, 0.f, layer)
     , m_eOrientation(EOrientation::Top)
     , m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.f, m_size / 2.f, layer))
     , m_pSprite_top(ResourceManager::getSprite("tankSprite_top"))
@@ -44,6 +44,8 @@ Tank::Tank(const double maxVelocity,
     );
 
     m_colliders.emplace_back(glm::vec2(0), m_size);
+
+    Physics::PhysicsEngine::addDynamicGameObject(m_pCurrentBullet);
 }
 
 void Tank::setVelocity(const double velocity)
@@ -157,9 +159,8 @@ void Tank::update(const double delta)
 
 void Tank::fire()
 {
-    //if (!m_pCurrentBullet->isActive())
+    if (!m_pCurrentBullet->isActive())
     {
-        m_pCurrentBullet->fire(m_position + m_size / 4.f, m_direction);
-        Physics::PhysicsEngine::addDynamicGameObject(m_pCurrentBullet);
+        m_pCurrentBullet->fire(m_position + m_size / 4.f + m_size * m_direction / 4.f, m_direction);
     }
 }
