@@ -11,7 +11,7 @@ Tank::Tank(const double maxVelocity,
            const float layer)
     : IGameObject(IGameObject::EObjectType::Tank, position, size, 0.f, layer)
     , m_eOrientation(EOrientation::Top)
-    , m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.f, m_size / 2.f, layer))
+    , m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.f, m_size / 2.f, m_size, layer))
     , m_pSprite_top(ResourceManager::getSprite("tankSprite_top"))
     , m_pSprite_bottom(ResourceManager::getSprite("tankSprite_bottom"))
     , m_pSprite_left(ResourceManager::getSprite("tankSprite_left"))
@@ -123,6 +123,11 @@ void Tank::setOrientation(const EOrientation eOrientation)
 
 void Tank::update(const double delta)
 {
+    if (m_pCurrentBullet->isActive())
+    {
+        m_pCurrentBullet->update(delta);
+    }
+
     if (m_isSpawning)
     {
         m_spriteAnimator_respawn.update(delta);
@@ -159,7 +164,7 @@ void Tank::update(const double delta)
 
 void Tank::fire()
 {
-    if (!m_pCurrentBullet->isActive())
+    if (!m_isSpawning && !m_pCurrentBullet->isActive())
     {
         m_pCurrentBullet->fire(m_position + m_size / 4.f + m_size * m_direction / 4.f, m_direction);
     }
