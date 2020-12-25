@@ -7,6 +7,9 @@
 #include "../GameObjects/Water.h"
 #include "../GameObjects/Eagle.h"
 #include "../GameObjects/Border.h"
+#include "../GameObjects/Tank.h"
+
+#include <GLFW/glfw3.h>
 
 #include <iostream>
 #include <algorithm>
@@ -131,6 +134,12 @@ Level::Level(const std::vector<std::string>& levelDescription)
     m_levelObjects.emplace_back(std::make_shared<Border>(glm::vec2((m_widthBlocks + 1) * BLOCK_SIZE, 0.f), glm::vec2(BLOCK_SIZE * 2.f, (m_heightBlocks + 1) * BLOCK_SIZE), 0.f, 0.f));
 }
 
+void Level::initPhysics()
+{
+    m_pTank = std::make_shared<Tank>(0.05, getPlayerRespawn_1(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f);
+    Physics::PhysicsEngine::addDynamicGameObject(m_pTank);
+}
+
 void Level::render() const
 {
     for (const auto& currentLevelObject : m_levelObjects)
@@ -140,6 +149,7 @@ void Level::render() const
             currentLevelObject->render();
         }
     }
+    m_pTank->render();
 }
 
 void Level::update(const double delta)
@@ -150,6 +160,40 @@ void Level::update(const double delta)
         {
             currentLevelObject->update(delta);
         }
+    }
+    m_pTank->update(delta);
+}
+
+void Level::processInput(const std::array<bool, 349>& keys)
+{
+    if (keys[GLFW_KEY_W])
+    {
+        m_pTank->setOrientation(Tank::EOrientation::Top);
+        m_pTank->setVelocity(m_pTank->getMaxVelocity());
+    }
+    else if (keys[GLFW_KEY_A])
+    {
+        m_pTank->setOrientation(Tank::EOrientation::Left);
+        m_pTank->setVelocity(m_pTank->getMaxVelocity());
+    }
+    else if (keys[GLFW_KEY_D])
+    {
+        m_pTank->setOrientation(Tank::EOrientation::Right);
+        m_pTank->setVelocity(m_pTank->getMaxVelocity());
+    }
+    else if (keys[GLFW_KEY_S])
+    {
+        m_pTank->setOrientation(Tank::EOrientation::Bottom);
+        m_pTank->setVelocity(m_pTank->getMaxVelocity());
+    }
+    else
+    {
+        m_pTank->setVelocity(0);
+    }
+
+    if (m_pTank && keys[GLFW_KEY_SPACE])
+    {
+        m_pTank->fire();
     }
 }
 
