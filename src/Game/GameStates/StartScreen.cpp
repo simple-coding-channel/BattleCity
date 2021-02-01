@@ -56,7 +56,7 @@ StartScreen::StartScreen(const std::vector<std::string>& startScreenDescription,
     , m_currentMenuSelection(0)
     , m_keyReleased(true)
     , m_menuSprite(std::make_pair(ResourceManager::getSprite("menu"), glm::vec2(11 * BLOCK_SIZE, STARTSCREEN_HEIGHT - startScreenDescription.size() * BLOCK_SIZE - MENU_HEIGHT - 5 * BLOCK_SIZE)))
-    , m_tankSprite(std::make_pair(ResourceManager::getSprite("tankSprite_right"), glm::vec2(8 * BLOCK_SIZE, m_menuSprite.second.y + 6 * BLOCK_SIZE - m_currentMenuSelection * 2 * BLOCK_SIZE)))
+    , m_tankSprite(std::make_pair(ResourceManager::getSprite("player1_yellow_tank_type1_sprite_right"), glm::vec2(8 * BLOCK_SIZE, m_menuSprite.second.y + 6 * BLOCK_SIZE - m_currentMenuSelection * 2 * BLOCK_SIZE)))
     , m_tankSpriteAnimator(m_tankSprite.first)
 {
     if (startScreenDescription.empty())

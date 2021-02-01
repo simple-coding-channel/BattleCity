@@ -5,17 +5,23 @@
 #include "Bullet.h"
 #include "../../Physics/PhysicsEngine.h"
 
-Tank::Tank(const double maxVelocity,
+const std::string& Tank::getTankSpriteFromType(const ETankType eType)
+{
+    return TankTypeToSpriteString[static_cast<size_t>(eType)];
+}
+
+Tank::Tank(const Tank::ETankType eType,
+           const double maxVelocity,
            const glm::vec2& position,
            const glm::vec2& size,
            const float layer)
     : IGameObject(IGameObject::EObjectType::Tank, position, size, 0.f, layer)
     , m_eOrientation(EOrientation::Top)
     , m_pCurrentBullet(std::make_shared<Bullet>(0.1, m_position + m_size / 4.f, m_size / 2.f, m_size, layer))
-    , m_pSprite_top(ResourceManager::getSprite("tankSprite_top"))
-    , m_pSprite_bottom(ResourceManager::getSprite("tankSprite_bottom"))
-    , m_pSprite_left(ResourceManager::getSprite("tankSprite_left"))
-    , m_pSprite_right(ResourceManager::getSprite("tankSprite_right"))
+    , m_pSprite_top(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_top"))
+    , m_pSprite_bottom(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_bottom"))
+    , m_pSprite_left(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_left"))
+    , m_pSprite_right(ResourceManager::getSprite(getTankSpriteFromType(eType) + "_right"))
     , m_spriteAnimator_top(m_pSprite_top)
     , m_spriteAnimator_bottom(m_pSprite_bottom)
     , m_spriteAnimator_left(m_pSprite_left)

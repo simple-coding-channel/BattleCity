@@ -97,278 +97,211 @@
 			"subTextureWidth" 	: 16,
 			"subTextureHeight" 	: 16,
 			"subTextures" : [
-				"yellowType1_top1",
-				"yellowType1_top2",
-				"yellowType1_left1",
-				"yellowType1_left2",
-				"yellowType1_bottom1",
-				"yellowType1_bottom2",
-				"yellowType1_right1",
-				"yellowType1_right2",
-				"whiteType1_top1",
-				"whiteType1_top2",
-				"whiteType1_left1",
-				"whiteType1_left2",
-				"whiteType1_bottom1",
-				"whiteType1_bottom2",
-				"whiteType1_right1",
-				"whiteType1_right2",
+				"player1_yellow_type1_top1",
+				"player1_yellow_type1_top2",
+				"player1_yellow_type1_left1",
+				"player1_yellow_type1_left2",
+				"player1_yellow_type1_bottom1",
+				"player1_yellow_type1_bottom2",
+				"player1_yellow_type1_right1",
+				"player1_yellow_type1_right2",
 				
-				"yellowType2_top1",
-				"yellowType2_top2",
-				"yellowType2_left1",
-				"yellowType2_left2",
-				"yellowType2_bottom1",
-				"yellowType2_bottom2",
-				"yellowType2_right1",
-				"yellowType2_right2",
-				"whiteType2_top1",
-				"whiteType2_top2",
-				"whiteType2_left1",
-				"whiteType2_left2",
-				"whiteType2_bottom1",
-				"whiteType2_bottom2",
-				"whiteType2_right1",
-				"whiteType2_right2",
+				"enemy_white_type1_top1",
+				"enemy_white_type1_top2",
+				"enemy_white_type1_left1",
+				"enemy_white_type1_left2",
+				"enemy_white_type1_bottom1",
+				"enemy_white_type1_bottom2",
+				"enemy_white_type1_right1",
+				"enemy_white_type1_right2",
 				
-				"yellowType3_top1",
-				"yellowType3_top2",
-				"yellowType3_left1",
-				"yellowType3_left2",
-				"yellowType3_bottom1",
-				"yellowType3_bottom2",
-				"yellowType3_right1",
-				"yellowType3_right2",
-				"whiteType3_top1",
-				"whiteType3_top2",
-				"whiteType3_left1",
-				"whiteType3_left2",
-				"whiteType3_bottom1",
-				"whiteType3_bottom2",
-				"whiteType3_right1",
-				"whiteType3_right2",
+				"player1_yellow_type2_top1",
+				"player1_yellow_type2_top2",
+				"player1_yellow_type2_left1",
+				"player1_yellow_type2_left2",
+				"player1_yellow_type2_bottom1",
+				"player1_yellow_type2_bottom2",
+				"player1_yellow_type2_right1",
+				"player1_yellow_type2_right2",
+				"enemy_white_type2_top1",
+				"enemy_white_type2_top2",
+				"enemy_white_type2_left1",
+				"enemy_white_type2_left2",
+				"enemy_white_type2_bottom1",
+				"enemy_white_type2_bottom2",
+				"enemy_white_type2_right1",
+				"enemy_white_type2_right2",
 				
-				"yellowType4_top1",
-				"yellowType4_top2",
-				"yellowType4_left1",
-				"yellowType4_left2",
-				"yellowType4_bottom1",
-				"yellowType4_bottom2",
-				"yellowType4_right1",
-				"yellowType4_right2",
-				"whiteType4_top1",
-				"whiteType4_top2",
-				"whiteType4_left1",
-				"whiteType4_left2",
-				"whiteType4_bottom1",
-				"whiteType4_bottom2",
-				"whiteType4_right1",
-				"whiteType4_right2",
+				"player1_yellow_type3_top1",
+				"player1_yellow_type3_top2",
+				"player1_yellow_type3_left1",
+				"player1_yellow_type3_left2",
+				"player1_yellow_type3_bottom1",
+				"player1_yellow_type3_bottom2",
+				"player1_yellow_type3_right1",
+				"player1_yellow_type3_right2",
+				"enemy_white_type3_top1",
+				"enemy_white_type3_top2",
+				"enemy_white_type3_left1",
+				"enemy_white_type3_left2",
+				"enemy_white_type3_bottom1",
+				"enemy_white_type3_bottom2",
+				"enemy_white_type3_right1",
+				"enemy_white_type3_right2",
 				
-				"yellowType5_top1",
-				"yellowType5_top2",
-				"yellowType5_left1",
-				"yellowType5_left2",
-				"yellowType5_bottom1",
-				"yellowType5_bottom2",
-				"yellowType5_right1",
-				"yellowType5_right2",
-				"whiteType5_top1",
-				"whiteType5_top2",
-				"whiteType5_left1",
-				"whiteType5_left2",
-				"whiteType5_bottom1",
-				"whiteType5_bottom2",
-				"whiteType5_right1",
-				"whiteType5_right2",
+				"player1_yellow_type4_top1",
+				"player1_yellow_type4_top2",
+				"player1_yellow_type4_left1",
+				"player1_yellow_type4_left2",
+				"player1_yellow_type4_bottom1",
+				"player1_yellow_type4_bottom2",
+				"player1_yellow_type4_right1",
+				"player1_yellow_type4_right2",
+				"enemy_white_type4_top1",
+				"enemy_white_type4_top2",
+				"enemy_white_type4_left1",
+				"enemy_white_type4_left2",
+				"enemy_white_type4_bottom1",
+				"enemy_white_type4_bottom2",
+				"enemy_white_type4_right1",
+				"enemy_white_type4_right2",
 				
-				"yellowType6_top1",
-				"yellowType6_top2",
-				"yellowType6_left1",
-				"yellowType6_left2",
-				"yellowType6_bottom1",
-				"yellowType6_bottom2",
-				"yellowType6_right1",
-				"yellowType6_right2",
-				"whiteType6_top1",
-				"whiteType6_top2",
-				"whiteType6_left1",
-				"whiteType6_left2",
-				"whiteType6_bottom1",
-				"whiteType6_bottom2",
-				"whiteType6_right1",
-				"whiteType6_right2",
+				"player2_green_type1_top1",
+				"player2_green_type1_top2",
+				"player2_green_type1_left1",
+				"player2_green_type1_left2",
+				"player2_green_type1_bottom1",
+				"player2_green_type1_bottom2",
+				"player2_green_type1_right1",
+				"player2_green_type1_right2",
+				"enemy_green_type1_top1",
+				"enemy_green_type1_top2",
+				"enemy_green_type1_left1",
+				"enemy_green_type1_left2",
+				"enemy_green_type1_bottom1",
+				"enemy_green_type1_bottom2",
+				"enemy_green_type1_right1",
+				"enemy_green_type1_right2",
 				
-				"yellowType7_top1",
-				"yellowType7_top2",
-				"yellowType7_left1",
-				"yellowType7_left2",
-				"yellowType7_bottom1",
-				"yellowType7_bottom2",
-				"yellowType7_right1",
-				"yellowType7_right2",
-				"whiteType7_top1",
-				"whiteType7_top2",
-				"whiteType7_left1",
-				"whiteType7_left2",
-				"whiteType7_bottom1",
-				"whiteType7_bottom2",
-				"whiteType7_right1",
-				"whiteType7_right2",
+				"player2_green_type2_top1",
+				"player2_green_type2_top2",
+				"player2_green_type2_left1",
+				"player2_green_type2_left2",
+				"player2_green_type2_bottom1",
+				"player2_green_type2_bottom2",
+				"player2_green_type2_right1",
+				"player2_green_type2_right2",
+				"enemy_green_type2_top1",
+				"enemy_green_type2_top2",
+				"enemy_green_type2_left1",
+				"enemy_green_type2_left2",
+				"enemy_green_type2_bottom1",
+				"enemy_green_type2_bottom2",
+				"enemy_green_type2_right1",
+				"enemy_green_type2_right2",
 				
-				"yellowType8_top1",
-				"yellowType8_top2",
-				"yellowType8_left1",
-				"yellowType8_left2",
-				"yellowType8_bottom1",
-				"yellowType8_bottom2",
-				"yellowType8_right1",
-				"yellowType8_right2",
-				"whiteType8_top1",
-				"whiteType8_top2",
-				"whiteType8_left1",
-				"whiteType8_left2",
-				"whiteType8_bottom1",
-				"whiteType8_bottom2",
-				"whiteType8_right1",
-				"whiteType8_right2",
+				"player2_green_type3_top1",
+				"player2_green_type3_top2",
+				"player2_green_type3_left1",
+				"player2_green_type3_left2",
+				"player2_green_type3_bottom1",
+				"player2_green_type3_bottom2",
+				"player2_green_type3_right1",
+				"player2_green_type3_right2",
+				"enemy_green_type3_top1",
+				"enemy_green_type3_top2",
+				"enemy_green_type3_left1",
+				"enemy_green_type3_left2",
+				"enemy_green_type3_bottom1",
+				"enemy_green_type3_bottom2",
+				"enemy_green_type3_right1",
+				"enemy_green_type3_right2",
+				
+				"player2_green_type4_top1",
+				"player2_green_type4_top2",
+				"player2_green_type4_left1",
+				"player2_green_type4_left2",
+				"player2_green_type4_bottom1",
+				"player2_green_type4_bottom2",
+				"player2_green_type4_right1",
+				"player2_green_type4_right2",
+				"enemy_green_type4_top1",
+				"enemy_green_type4_top2",
+				"enemy_green_type4_left1",
+				"enemy_green_type4_left2",
+				"enemy_green_type4_bottom1",
+				"enemy_green_type4_bottom2",
+				"enemy_green_type4_right1",
+				"enemy_green_type4_right2",
 				
 				
-				"greenType1_top1",
-				"greenType1_top2",
-				"greenType1_left1",
-				"greenType1_left2",
-				"greenType1_bottom1",
-				"greenType1_bottom2",
-				"greenType1_right1",
-				"greenType1_right2",
-				"redType1_top1",
-				"redType1_top2",
-				"redType1_left1",
-				"redType1_left2",
-				"redType1_bottom1",
-				"redType1_bottom2",
-				"redType1_right1",
-				"redType1_right2",
+				"enemy_red_type1_top1",
+				"enemy_red_type1_top2",
+				"enemy_red_type1_left1",
+				"enemy_red_type1_left2",
+				"enemy_red_type1_bottom1",
+				"enemy_red_type1_bottom2",
+				"enemy_red_type1_right1",
+				"enemy_red_type1_right2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
 				
-				"greenType2_top1",
-				"greenType2_top2",
-				"greenType2_left1",
-				"greenType2_left2",
-				"greenType2_bottom1",
-				"greenType2_bottom2",
-				"greenType2_right1",
-				"greenType2_right2",
-				"redType2_top1",
-				"redType2_top2",
-				"redType2_left1",
-				"redType2_left2",
-				"redType2_bottom1",
-				"redType2_bottom2",
-				"redType2_right1",
-				"redType2_right2",
+				"enemy_red_type2_top1",
+				"enemy_red_type2_top2",
+				"enemy_red_type2_left1",
+				"enemy_red_type2_left2",
+				"enemy_red_type2_bottom1",
+				"enemy_red_type2_bottom2",
+				"enemy_red_type2_right1",
+				"enemy_red_type2_right2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
 				
-				"greenType3_top1",
-				"greenType3_top2",
-				"greenType3_left1",
-				"greenType3_left2",
-				"greenType3_bottom1",
-				"greenType3_bottom2",
-				"greenType3_right1",
-				"greenType3_right2",
-				"redType3_top1",
-				"redType3_top2",
-				"redType3_left1",
-				"redType3_left2",
-				"redType3_bottom1",
-				"redType3_bottom2",
-				"redType3_right1",
-				"redType3_right2",
+				"enemy_red_type3_top1",
+				"enemy_red_type3_top2",
+				"enemy_red_type3_left1",
+				"enemy_red_type3_left2",
+				"enemy_red_type3_bottom1",
+				"enemy_red_type3_bottom2",
+				"enemy_red_type3_right1",
+				"enemy_red_type3_right2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
 				
-				"greenType4_top1",
-				"greenType4_top2",
-				"greenType4_left1",
-				"greenType4_left2",
-				"greenType4_bottom1",
-				"greenType4_bottom2",
-				"greenType4_right1",
-				"greenType4_right2",
-				"redType4_top1",
-				"redType4_top2",
-				"redType4_left1",
-				"redType4_left2",
-				"redType4_bottom1",
-				"redType4_bottom2",
-				"redType4_right1",
-				"redType4_right2",
-				
-				"greenType5_top1",
-				"greenType5_top2",
-				"greenType5_left1",
-				"greenType5_left2",
-				"greenType5_bottom1",
-				"greenType5_bottom2",
-				"greenType5_right1",
-				"greenType5_right2",
-				"redType5_top1",
-				"redType5_top2",
-				"redType5_left1",
-				"redType5_left2",
-				"redType5_bottom1",
-				"redType5_bottom2",
-				"redType5_right1",
-				"redType5_right2",
-				
-				"greenType6_top1",
-				"greenType6_top2",
-				"greenType6_left1",
-				"greenType6_left2",
-				"greenType6_bottom1",
-				"greenType6_bottom2",
-				"greenType6_right1",
-				"greenType6_right2",
-				"redType6_top1",
-				"redType6_top2",
-				"redType6_left1",
-				"redType6_left2",
-				"redType6_bottom1",
-				"redType6_bottom2",
-				"redType6_right1",
-				"redType6_right2",
-				
-				"greenType7_top1",
-				"greenType7_top2",
-				"greenType7_left1",
-				"greenType7_left2",
-				"greenType7_bottom1",
-				"greenType7_bottom2",
-				"greenType7_right1",
-				"greenType7_right2",
-				"redType7_top1",
-				"redType7_top2",
-				"redType7_left1",
-				"redType7_left2",
-				"redType7_bottom1",
-				"redType7_bottom2",
-				"redType7_right1",
-				"redType7_right2",
-				
-				"greenType8_top1",
-				"greenType8_top2",
-				"greenType8_left1",
-				"greenType8_left2",
-				"greenType8_bottom1",
-				"greenType8_bottom2",
-				"greenType8_right1",
-				"greenType8_right2",
-				"redType8_top1",
-				"redType8_top2",
-				"redType8_left1",
-				"redType8_left2",
-				"redType8_bottom1",
-				"redType8_bottom2",
-				"redType8_right1",
-				"redType8_right2"
+				"enemy_red_type4_top1",
+				"enemy_red_type4_top2",
+				"enemy_red_type4_left1",
+				"enemy_red_type4_left2",
+				"enemy_red_type4_bottom1",
+				"enemy_red_type4_bottom2",
+				"enemy_red_type4_right1",
+				"enemy_red_type4_right2",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				"",
+				""
 			]
 		},
 		
@@ -745,68 +678,1303 @@
         
         
         {
-			"name" 				: "tankSprite_top",
+			"name" 				: "player1_yellow_tank_type1_sprite_top",
 			"textureAtlas" 		: "tanksTextureAtlas",
 			"shader" 			: "spriteShader",
-			"initialSubTexture" : "yellowType1_top1",
+			"initialSubTexture" : "player1_yellow_type1_top1",
 			"frames" : [
                 {
-                    "subTexture" : "yellowType1_top1",
+                    "subTexture" : "player1_yellow_type1_top1",
                     "duration"   : 500
                 },
                 {
-                    "subTexture" : "yellowType1_top2",
+                    "subTexture" : "player1_yellow_type1_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type1_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type1_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type1_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type1_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type1_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type1_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type1_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type1_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type1_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type1_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type1_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type1_right2",
                     "duration"   : 500
                 }
             ]
 		},
 		
 		{
-			"name" 				: "tankSprite_bottom",
+			"name" 				: "player1_yellow_tank_type2_sprite_top",
 			"textureAtlas" 		: "tanksTextureAtlas",
 			"shader" 			: "spriteShader",
-			"initialSubTexture" : "yellowType1_bottom1",
+			"initialSubTexture" : "player1_yellow_type2_top1",
 			"frames" : [
                 {
-                    "subTexture" : "yellowType1_bottom1",
+                    "subTexture" : "player1_yellow_type2_top1",
                     "duration"   : 500
                 },
                 {
-                    "subTexture" : "yellowType1_bottom2",
+                    "subTexture" : "player1_yellow_type2_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type2_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type2_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type2_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type2_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type2_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type2_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type2_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type2_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type2_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type2_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type2_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type2_right2",
                     "duration"   : 500
                 }
             ]
 		},
 		
 		{
-			"name" 				: "tankSprite_left",
+			"name" 				: "player1_yellow_tank_type3_sprite_top",
 			"textureAtlas" 		: "tanksTextureAtlas",
 			"shader" 			: "spriteShader",
-			"initialSubTexture" : "yellowType1_left1",
+			"initialSubTexture" : "player1_yellow_type3_top1",
 			"frames" : [
                 {
-                    "subTexture" : "yellowType1_left1",
+                    "subTexture" : "player1_yellow_type3_top1",
                     "duration"   : 500
                 },
                 {
-                    "subTexture" : "yellowType1_left2",
+                    "subTexture" : "player1_yellow_type3_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type3_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type3_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type3_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type3_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type3_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type3_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type3_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type3_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type3_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type3_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type3_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type3_right2",
                     "duration"   : 500
                 }
             ]
 		},
 		
 		{
-			"name" 				: "tankSprite_right",
+			"name" 				: "player1_yellow_tank_type4_sprite_top",
 			"textureAtlas" 		: "tanksTextureAtlas",
 			"shader" 			: "spriteShader",
-			"initialSubTexture" : "yellowType1_right1",
+			"initialSubTexture" : "player1_yellow_type4_top1",
 			"frames" : [
                 {
-                    "subTexture" : "yellowType1_right1",
+                    "subTexture" : "player1_yellow_type4_top1",
                     "duration"   : 500
                 },
                 {
-                    "subTexture" : "yellowType1_right2",
+                    "subTexture" : "player1_yellow_type4_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type4_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type4_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type4_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type4_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type4_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type4_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type4_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type4_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player1_yellow_tank_type4_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player1_yellow_type4_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player1_yellow_type4_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player1_yellow_type4_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "player2_green_tank_type1_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type1_top1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type1_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type1_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type1_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type1_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type1_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type1_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type1_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type1_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type1_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type1_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type1_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type1_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type1_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type1_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "player2_green_tank_type2_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type2_top1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type2_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type2_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type2_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type2_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type2_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type2_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type2_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type2_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type2_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type2_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type2_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type2_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type2_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type2_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "player2_green_tank_type3_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type3_top1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type3_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type3_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type3_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type3_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type3_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type3_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type3_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type3_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type3_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type3_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type3_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type3_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type3_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type3_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "player2_green_tank_type4_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type4_top1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type4_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type4_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type4_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type4_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type4_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type4_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type4_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type4_left1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type4_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type4_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "player2_green_tank_type4_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "player2_green_type4_right1",
+			"frames" : [
+                {
+                    "subTexture" : "player2_green_type4_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "player2_green_type4_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		
+		{
+			"name" 				: "enemy_white_tank_type1_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type1_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type1_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type1_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type1_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type1_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type1_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type1_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type1_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type1_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type1_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type1_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type1_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type1_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type1_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type1_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_white_tank_type2_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type2_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type2_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type2_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type2_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type2_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type2_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type2_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type2_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type2_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type2_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type2_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type2_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type2_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type2_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type2_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_white_tank_type3_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type3_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type3_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type3_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type3_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type3_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type3_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type3_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type3_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type3_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type3_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type3_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type3_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type3_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type3_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type3_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_white_tank_type4_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type4_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type4_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type4_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type4_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type4_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type4_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type4_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type4_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type4_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type4_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type4_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_white_tank_type4_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_white_type4_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_white_type4_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_white_type4_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		
+		{
+			"name" 				: "enemy_green_tank_type1_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type1_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type1_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type1_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type1_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type1_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type1_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type1_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type1_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type1_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type1_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type1_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type1_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type1_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type1_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type1_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_green_tank_type2_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type2_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type2_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type2_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type2_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type2_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type2_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type2_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type2_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type2_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type2_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type2_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type2_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type2_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type2_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type2_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_green_tank_type3_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type3_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type3_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type3_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type3_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type3_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type3_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type3_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type3_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type3_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type3_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type3_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type3_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type3_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type3_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type3_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_green_tank_type4_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type4_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type4_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type4_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type4_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type4_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type4_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type4_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type4_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type4_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type4_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type4_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_green_tank_type4_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_green_type4_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_green_type4_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_green_type4_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		
+		{
+			"name" 				: "enemy_red_tank_type1_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type1_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type1_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type1_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type1_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type1_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type1_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type1_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type1_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type1_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type1_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type1_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type1_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type1_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type1_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type1_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_red_tank_type2_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type2_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type2_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type2_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type2_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type2_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type2_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type2_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type2_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type2_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type2_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type2_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type2_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type2_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type2_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type2_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_red_tank_type3_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type3_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type3_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type3_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type3_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type3_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type3_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type3_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type3_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type3_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type3_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type3_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type3_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type3_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type3_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type3_right2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		
+		{
+			"name" 				: "enemy_red_tank_type4_sprite_top",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type4_top1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type4_top1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type4_top2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type4_sprite_left",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type4_left1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type4_left1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type4_left2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type4_sprite_bottom",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type4_bottom1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type4_bottom1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type4_bottom2",
+                    "duration"   : 500
+                }
+            ]
+		},
+		{
+			"name" 				: "enemy_red_tank_type4_sprite_right",
+			"textureAtlas" 		: "tanksTextureAtlas",
+			"shader" 			: "spriteShader",
+			"initialSubTexture" : "enemy_red_type4_right1",
+			"frames" : [
+                {
+                    "subTexture" : "enemy_red_type4_right1",
+                    "duration"   : 500
+                },
+                {
+                    "subTexture" : "enemy_red_type4_right2",
                     "duration"   : 500
                 }
             ]
