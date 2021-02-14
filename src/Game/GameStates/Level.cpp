@@ -136,8 +136,16 @@ Level::Level(const std::vector<std::string>& levelDescription)
 
 void Level::initPhysics()
 {
-    m_pTank = std::make_shared<Tank>(Tank::ETankType::Player1Yellow_type1, 0.05, getPlayerRespawn_1(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f);
+    m_pTank = std::make_shared<Tank>(Tank::ETankType::Player1Yellow_type1, false, true, Tank::EOrientation::Top, 0.05, getPlayerRespawn_1(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f);
     Physics::PhysicsEngine::addDynamicGameObject(m_pTank);
+
+    m_enemyTanks.emplace(std::make_shared<Tank>(Tank::ETankType::EnemyWhite_type1, true, false, Tank::EOrientation::Bottom, 0.05, getEnemyRespawn_1(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f));
+    m_enemyTanks.emplace(std::make_shared<Tank>(Tank::ETankType::EnemyWhite_type4, true, false, Tank::EOrientation::Bottom, 0.05, getEnemyRespawn_2(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f));
+    m_enemyTanks.emplace(std::make_shared<Tank>(Tank::ETankType::EnemyWhite_type2, true, false, Tank::EOrientation::Bottom, 0.05, getEnemyRespawn_3(), glm::vec2(Level::BLOCK_SIZE, Level::BLOCK_SIZE), 0.f));
+    for (const auto& currentTank : m_enemyTanks)
+    {
+        Physics::PhysicsEngine::addDynamicGameObject(currentTank);
+    }
 }
 
 void Level::render() const
@@ -150,6 +158,11 @@ void Level::render() const
         }
     }
     m_pTank->render();
+
+    for (const auto& currentTank : m_enemyTanks)
+    {
+        currentTank->render();
+    }
 }
 
 void Level::update(const double delta)
@@ -162,6 +175,11 @@ void Level::update(const double delta)
         }
     }
     m_pTank->update(delta);
+
+    for (const auto& currentTank : m_enemyTanks)
+    {
+        currentTank->update(delta);
+    }
 }
 
 void Level::processInput(const std::array<bool, 349>& keys)
