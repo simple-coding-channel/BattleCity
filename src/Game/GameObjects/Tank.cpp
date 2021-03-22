@@ -64,6 +64,7 @@ Tank::Tank(const Tank::ETankType eType,
 
     m_colliders.emplace_back(glm::vec2(0), m_size);
 
+    m_pCurrentBullet->setOwner(this);
     Physics::PhysicsEngine::addDynamicGameObject(m_pCurrentBullet);
 
     if (bHasAI)
