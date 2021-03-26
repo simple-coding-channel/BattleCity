@@ -4,7 +4,6 @@
 #include "../../Renderer/Sprite.h"
 #include "Bullet.h"
 #include "../../Physics/PhysicsEngine.h"
-#include "../AIComponent.h"
 
 const std::string& Tank::getTankSpriteFromType(const ETankType eType)
 {

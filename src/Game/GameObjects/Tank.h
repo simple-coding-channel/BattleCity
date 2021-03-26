@@ -6,13 +6,13 @@
 #include "IGameObject.h"
 #include "../../Renderer/SpriteAnimator.h"
 #include "../../System/Timer.h"
+#include "../AIComponent.h"
 
 namespace RenderEngine {
     class Sprite;
 }
 
 class Bullet;
-class AIComponent;
 
 class Tank : public IGameObject {
 public:
