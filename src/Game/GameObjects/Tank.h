@@ -2,6 +2,7 @@
 
 #include <glm/vec2.hpp>
 #include <memory>
+#include <string>
 
 #include "IGameObject.h"
 #include "../../Renderer/SpriteAnimator.h"
